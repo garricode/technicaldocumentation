@@ -56,6 +56,6 @@ To view the Technical Documentation Page, simply open the `index.html` file in y
 
 This project is licensed under the [MIT License](https://github.com/garricode/personalportfolio/blob/main/LICENSE). See the LICENSE file for details.
 
-## Project Adptations
+## Project Adaptations
 
 This project's code has been customized to fulfill its specific requirements. This entailed adjustments to the HTML elements and structure, as well as the CSS properties used to dictate element appearances. Therefore, it may not entirely align with all of the original FreeCodeCamp User Stories.
