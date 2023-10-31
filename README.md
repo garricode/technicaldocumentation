@@ -50,12 +50,12 @@ To view the Technical Documentation Page, simply open the `index.html` file in y
 
 ## Author
 
-- [Your Name](Your GitHub Profile Link): Feel free to connect with me on GitHub!
+- [Rafael Garrigos](https://github.com/garricode): Feel free to connect with me on GitHub!
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](https://github.com/garricode/personalportfolio/blob/main/LICENSE). See the LICENSE file for details.
 
-## Disclaimer
+## Project Adptations
 
-The code for this project may not fully meet all of FreeCodeCamp's original user stories after the updates.
+This project's code has been customized to fulfill its specific requirements. This entailed adjustments to the HTML elements and structure, as well as the CSS properties used to dictate element appearances. Therefore, it may not entirely align with all of the original FreeCodeCamp User Stories.
