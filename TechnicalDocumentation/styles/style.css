@@ -8,8 +8,8 @@
 /* Set a background color for the body */
 body {
     min-width: 290px;
-    color: #4d4e53;
-    background-color: #ffffff;
+    color: #ffffff; /* Text color */
+    background-color: #2d2d2d; /* Background color */
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
 }
@@ -23,11 +23,11 @@ body {
     width: 300px;
     height: 100%;
     border-right: solid;
-    border-color: rgba(0, 22, 22, 0.4);
+    border-color: #292929; /* Navbar border color */
 }
 
 header {
-    color: black;
+    color: #ff9900; /* Header text color */
     margin: 10px;
     text-align: center;
     font-size: 1.8em;
@@ -47,7 +47,7 @@ header {
 }
 
 #navbar li {
-    color: #4d4e53;
+    color: #cccccc; /* Nav item text color */
     border-top: 1px solid;
     list-style: none;
     position: relative;
@@ -57,7 +57,7 @@ header {
 #navbar a {
     display: block;
     padding: 10px 30px;
-    color: #4d4e53;
+    color: #cccccc; /* Nav item text color */
     text-decoration: none;
     cursor: pointer;
 }
@@ -70,13 +70,13 @@ header {
 }
 
 section article {
-    color: #4d4e53;
+    color: #cccccc; /* Article text color */
     margin: 15px;
     font-size: 0.96em;
 }
 
 section li {
-    margin: 15px 0 0 20px;
+    margin: 15px 0px 0px 20px;
 }
 
 .code-block {
@@ -86,14 +86,13 @@ section li {
     position: relative;
     word-break: normal;
     word-wrap: normal;
-    line-height: 2;
-    background-color: #f0f4f7;
-    color: #36454F;  
+    line-height: 1.5;
+    background-color: #1a1a1a; /* Code block background color */
+    color: #cccccc; /* Code block text color */
     padding: 15px;
     margin: 10px;
     border-radius: 5px;
 }
-
 
 @media only screen and (max-width: 815px) {
     /* For mobile phones: */
@@ -103,7 +102,7 @@ section li {
     }
 
     #navbar {
-        background-color: white;
+        background-color: #1a1a1a; /* Navbar background color */
         position: absolute;
         top: 0;
         padding: 0;
@@ -117,7 +116,7 @@ section li {
 
     #main-doc {
         position: relative;
-        margin-left: 0;
+        margin-left: 0px;
         margin-top: 270px;
     }
 }
@@ -135,16 +134,4 @@ section li {
         padding-right: 45px;
         min-width: 233px;
     }
-}
-
-/* Media query for tablets */
-@media only screen and (max-width: 768px) {
-    /* Adjust the layout for tablets */
-    /* Increase font sizes, reduce margins, or make other layout changes */
-}
-
-/* Media query for mobile phones */
-@media only screen and (max-width: 480px) {
-    /* Adjust the layout for mobile phones */
-    /* Use smaller fonts, remove or reorganize content for a narrower viewport */
 }
